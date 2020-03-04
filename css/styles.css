@@ -21,16 +21,16 @@ li {
     max-height: 500px;
   }
 
-.card {
+.alicard{
     border: none;
 }
 
 
-h2 {
+.alibody h2 {
     font-family: 'Lakki Reddy', cursive;
     size: 150%;
 }
-.card img{
+.alicard img{
     height: 200px;
     width: 350px;
 }
