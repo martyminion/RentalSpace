@@ -16,36 +16,17 @@
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-
-#ali {
-=======
 #ali{
->>>>>>> ali
     width: 100%;
     max-height: 500px;
   }
 
-<<<<<<< HEAD
-
-.card {
-    border: none;
-} 
-
-
-/* p {
-    font-family: 'Yeon Sung', cursive;
-    font-size:100%;
-}*/
-h2 {
-=======
 .alicard{
     border: none;
 }
 
 
 .alibody h2 {
->>>>>>> ali
     font-family: 'Lakki Reddy', cursive;
     size: 150%;
 }
@@ -53,8 +34,3 @@ h2 {
     height: 200px;
     width: 350px;
 }
-<<<<<<< HEAD
- 
-=======
-
->>>>>>> ali
