@@ -1,0 +1,17 @@
+.bmwBody{
+    font-family: 'Stardos Stencil', cursive;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.bmwImage {
+    width: 100px;
+    margin: 40px;
+}
+.bmwBody h1 {
+    font-size: 80px;
+}
+li {
+    font-weight: bold;
+}
