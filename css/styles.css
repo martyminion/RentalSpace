@@ -1,0 +1,37 @@
+.bmwBody{
+    font-family: 'Stardos Stencil', cursive;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.bmwImage {
+    width: 100px;
+    margin: 40px;
+}
+.bmwBody h1 {
+    font-size: 80px;
+}
+.bmwBody li {
+    font-weight: bold;
+}
+
+#ali{
+    width: 100%;
+    max-height: 500px;
+  }
+
+.alicard{
+    border: none;
+}
+
+
+.alibody h2 {
+    font-family: 'Lakki Reddy', cursive;
+    size: 150%;
+}
+.alicard img{
+    height: 200px;
+    width: 350px;
+}
+
