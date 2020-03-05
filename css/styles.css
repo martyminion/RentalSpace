@@ -29,8 +29,67 @@
 .alibody h2 {
     font-family: 'Lakki Reddy', cursive;
     size: 150%;
+    margin-bottom:;
 }
-.alicard img{
-    height: 200px;
-    width: 350px;
+
+.brendalocation {
+    display: flex;
+    padding-left: 400px;
+    text-align: center;
+}
+
+.brendalocation img {
+  width:100px ;
+  height:100px ;
+}
+.brendalocation h2{
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+.brendaheader h1 {
+    font-size: 100px ;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.bmwBody .col-md-12{
+    margin-top: 90px;
+    font-family: 'Cutive', serif;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.bmwBody li {
+    list-style-type: none;
+}
+.bmwBody .col-md-6 {
+    font-family: 'Belgrano', serif;
+    line-height: 50px ;
+    margin-top: 100px;
+
+}
+.bmwBody h3{
+   font-size: 40px;
+}
+#mintShop h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75px;
+    margin-top: 100px;
+}
+.bmwBody .icons h3{
+margin-top: 100px;
+}
+.signup p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.brendacarousel img {
+    display: block;
+    height: auto;
+    width: 100%;
+    }
+.brendaControls {
+    align-content: center;
 }
