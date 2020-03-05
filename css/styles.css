@@ -35,27 +35,28 @@
     height: 200px;
     width: 350px;
 }
-h1{
-text-align: center;
-}
+
 .locationali img{
     width: 100px;
     height: 100px;
     
 }
+
 .locationali{
     padding-left: 600px;
     display: flex;
 }
-ul{
+.similar{
+    padding-left: 600px;
+    display: flex;
+}
+.ulali{
     list-style-type: none;
 }
- h2 {
+#cawilow h2 {
     font-family: 'Lakki Reddy', cursive;
     size: 150%;
     text-align: center;
+    text-align: center;
+    justify-items: center;
 }
-h1{
-    text-decoration: underline;
-    text-decoration-color: black;
-  }
