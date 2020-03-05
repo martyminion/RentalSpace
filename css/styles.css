@@ -35,3 +35,121 @@
     width: 350px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+ 
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover {
+  background-color:#40E0D0;
+}
+#navbarDropdown{
+  float: left;
+  overflow: hidden;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+#navbarDropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.landingCard {
+  border-radius: 0.65rem;
+  margin-top: 8%;
+}
+.landingH4 {
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: left;
+}
+#aboutUs {
+  text-align: center;
+  font-family: 'Simonetta', cursive;
+}
+.landingTitle {
+  color: #40E0D0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+#branches {
+  text-align: center;
+}
+#shelfs11 {
+  background-image: url(../images/shelfs11.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 200px;
+}
+#shelfs22 {
+  background-image: url(../images/shelfs22.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 200px;
+}
+#amenities {
+  text-align: center;
+}
+.amenitiesMarket {
+  display: none;
+  border: solid black 2px;
+  border-radius: 0.65rem;
+  padding: 3px;
+  font-family: 'Neucha', cursive;
+}
+.amenitiesStaff {
+  display: none;
+  border: solid black 2px;
+  border-radius: 0.65rem;
+  padding: 3px;
+  font-family: 'Neucha', cursive;
+}
+.amenitesSecurity {
+  display: none;
+  border: solid black 2px;
+  border-radius: 0.65rem;
+  padding: 3px;
+  font-family: 'Neucha', cursive;
+}
+#toggleMarket :hover, #toggleStaff :hover, #toggleSecurity :hover {
+  color:#40E0D0;
+  font-size: large;
+  font-family: 'Unica One', cursive;
+  text-decoration: underline;
+  font-weight: 800;
+}
+#toggleMarket , #toggleStaff , #toggleSecurity  {
+  font-family: 'Unica One', cursive;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.dropdown {
+  z-index: 1;
+}
