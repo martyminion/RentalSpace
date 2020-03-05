@@ -3,6 +3,7 @@
     text-align: center;
     line-height: 20px;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 .bmwImage {
@@ -233,5 +234,28 @@ padding: 50px;
   height:100px;
   width: 100px;
   object-fit: cover;
+}
+.locationali img{
+    width: 100px;
+    height: 100px;
+    
+}
 
+.locationali{
+    padding-left: 600px;
+    display: flex;
+}
+.similar{
+    padding-left: 600px;
+    display: flex;
+}
+.ulali{
+    list-style-type: none;
+}
+#cawilow h2 {
+    font-family: 'Lakki Reddy', cursive;
+    size: 150%;
+    text-align: center;
+    text-align: center;
+    justify-items: center;
 }
