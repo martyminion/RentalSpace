@@ -153,3 +153,85 @@
 .dropdown {
   z-index: 1;
 }
+
+#formPhotos img{
+  height:300px;
+  width:500px;
+  object-fit: cover;
+  padding: 30px;
+
+}
+
+
+#formPhotos {
+  text-align:center;
+  font-size: 15px;
+  font-style: italic;
+  color:#40E0D0;
+}
+#formPhotos p {
+  text-align:center;
+  font-size: 15px;
+  font-style: italic;
+  color: black;
+}
+
+#formTitle h1{
+  font-family: 'Cabin', sans-serif;
+  color: #40E0D0;
+  font-size: 100px;
+  text-align: center;
+  padding:30px;
+}
+#formTitle img{
+  height: 100px;
+  width: 100px;
+}
+
+#formBody{
+  font-family: 'Flamenco', cursive;
+  font-size: 20px;
+}
+
+#formApplication{
+  font-family: 'Flamenco', cursive;
+  font-size: 45px;
+  text-align: justify;
+}
+#formOrder h2{
+  font-family: 'Flamenco', cursive;
+  font-size: 45px;
+  text-align: center;
+}
+
+#formBody button{
+  text-align: center;
+  font-size: 25px;
+}
+
+#formBackHome{
+  font-size: 35px;
+}
+#formPhotos {
+  background-color: #40E0D0;
+
+}
+#formOrder{
+display: none;
+text-align: center;
+font-family: 'Flamenco', cursive;
+font-size: 30px;
+padding: 50px;
+}
+
+#formFooter{
+  font-family: 'Flamenco', cursive;
+  color:black;
+  text-align:center;
+}
+#formFooter img{
+  height:100px;
+  width: 100px;
+  object-fit: cover;
+
+}

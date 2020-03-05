@@ -23,12 +23,12 @@ let sNumber;
 let typeCost;
 let costshelf;
 let costattendant;
-//let wallShelfNumber = 10;
+let wallShelfNumber = 10;
 let endBayNumber = 10;
 let pegBoardNumber = 10;
 let freeStandNumber = 10;
 let fridgeShelfNumber = 10;
-let availablewallShelfNumber = 10;
+let availablewallShelfNumber;
 let availableendBayNumber;
 let availablepegBoardNumber;
 let availablefreeStandNumber;
@@ -132,8 +132,35 @@ $(document).ready(function () {
       //console.log(costshelf)
       costshelf.shelfCosting(type, number);
       costshelf.availableSpace(type,number);
-      localStorage.setItem("wallShelfNumber",availablewallShelfNumber)
+      //localStorage.setItem("wallShelfNumber",availablewallShelfNumber)
+
+
+
     }
+      //$("#formPersonalNext").click(function(){
+        //$("#formSelectShelf").show();
+        //$("#formPersonalDetails").hide();
+      //});
+
+
+    total = attendantCost + shelfCost;
+    $("#formSelectShelf").hide();
+    $("#formPersonalDetails").hide();
+    $("#formSelectListing").hide();
+    $("#formPhotos").hide();
+    $("#formApplication").hide();
+
+    $("#formOrder").show();
+    $("#formOrder h2").text("Thank you for applying. Your order is summarized below!")
+    $(".formName").text("Name: " + newSpace.name);
+    $(".formEmail").text("Email: " + newSpace.email);
+    $(".formListing").text("Location: " + newSpace.listing);
+    $(".formShelf").text("Shelves: " + costshelf.type +":" + ", number of shelves:" + costshelf.number);
+    $(".formAttendatants").text("Number of attendants: "+newSpace.attendantsNumber)
+
+    $(".formTotal").text("Total shelves cost: KSH" +shelfCost +"Total attendants cost: KSH"+ attendantCost);
+    $(".formCost").text("Total order summary: KSH" +total);
+
 
 
   })
