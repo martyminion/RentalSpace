@@ -37,4 +37,24 @@
 h1{
 text-align: center;
 }
-
+.locationali img{
+    width: 100px;
+    height: 100px;
+    
+}
+.locationali{
+    padding-left: 600px;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+ h2 {
+    font-family: 'Lakki Reddy', cursive;
+    size: 150%;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
