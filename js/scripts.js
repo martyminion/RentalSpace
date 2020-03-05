@@ -148,6 +148,7 @@ $(document).ready(function () {
     $("#formPersonalDetails").hide();
     $("#formSelectListing").hide();
     $("#formPhotos").hide();
+    $("#formApplication").hide();
 
     $("#formOrder").show();
     $("#formOrder h2").text("Thank you for applying. Your order is summarized below!")
