@@ -4,17 +4,23 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Flamenco&display=swap" rel="stylesheet">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Application Form</title>
 </head>
-
-<body class="container-fluid text-center">
-
-  <h1>Application Form</h1>
-
+<body >
+  <div class="container">
+  <div id="formTitle">
+  <h1><img src="img/logo.png">MINT.Co</h1>
+</div>
+<h2 div id="formApplication">APPLICATION FORM</h1>
+<div id="formBody">
+<div class="row">
+  <div class="col-md-6">
   <form class="form-group" id="applicationForm">
 
+    <div id=formPersonalDetails>
     <div class="form-group">
       <label for=""> Please enter your Name</label>
       <input type="text" class="form-control" id="userName" placeholder=" Your name">
@@ -22,98 +28,103 @@
     <div class="form-group">
       <label for=""> Please enter your email</label>
       <input type="email" class="form-control" id="email" placeholder=" Your email">
-    </div>
-    <p>Please Choose Location</p>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="listingRadio" id="kileleshwa" value="kileleshwa">
-      <label class="form-check-label" for="kileleshwaRadio">Kileleshwa</label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="listingRadio" id="gardenCity" value="gardenCity">
-      <label class="form-check-label" for="kileleshwaRadio">Garden City</label>
-    </div>
+      <!--<span class="btn btn-outline-success" id="formPersonalNext">NEXT</span>-->
+    </div></div>
 
-    <p>Please Select Type Of Shelf</p>
-    <div class="row">
-      <div class="col-md-6">
+      <div id="formSelectShelf">
+      <p>Please Select Type Of Shelf</p>
+
         <div class="form-check">
           <input class="form-check-input" name="shelfType" type="checkbox" value="wallShelf" id="wallShelfInput">
           <label class="form-check-label" for="wallShelf">Wall Shelving</label>
         </div>
-      </div>
-      <div class="col-md-6">
+
         <div class="form-group">
           <input type="number" class="form-control" id="wallShelf" placeholder=" Please Enter the number of Wall Shelves needed">
         </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-6">
         <div class="form-check">
           <input class="form-check-input" name="shelfType" type="checkbox" value="endBay" id="endBayInput">
           <label class="form-check-label" for="wallShelf">End Bay Shelving</label>
         </div>
-      </div>
-      <div class="col-md-6">
+
         <div class="form-group">
           <input type="number" class="form-control" id="endBay" placeholder=" Please Enter the number of End Bay Shelves needed">
         </div>
 
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
         <div class="form-check">
           <input class="form-check-input" name="shelfType" type="checkbox" value="pegShelf" id="pegShelfInput">
           <label class="form-check-label" for="wallShelf">Pegboard Shelving</label>
         </div>
-      </div>
-      <div class="col-md-6">
+
         <div class="form-group">
           <input type="number" class="form-control" id="pegShelf" placeholder=" Please Enter the number of Pegboard Shelves needed">
         </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-6">
         <div class="form-check">
           <input class="form-check-input" name="shelfType" type="checkbox" value="freeStandShelf" id="freeStandShelfInput">
           <label class="form-check-label" for="wallShelf">Free Stand Shelving</label>
         </div>
-      </div>
-      <div class="col-md-6">
+
         <div class="form-group">
           <input type="number" class="form-control" id="freeStandShelf" placeholder=" Please Enter the number of Free Stand Shelves needed">
         </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-6">
         <div class="form-check">
           <input class="form-check-input" name="shelfType" type="checkbox" value="fridgeShelf" id="fridgeShelfInput">
           <label class="form-check-label" for="wallShelf">Refrigerated Shelving</label>
         </div>
-      </div>
-      <div class="col-md-6">
         <div class="form-group">
           <input type="number" class="form-control" id="fridgeShelf" placeholder=" Please Enter the number of Refrigerated Shelves needed">
         </div>
+        <!--<span class="btn btn-outline-success" id="formShelfNext">NEXT</span>-->
       </div>
-    </div>
-  
-    <div class="form-group">
-      <label for="number">Number of attendants</label>
-      <input type="number" class="form-control" id="attendant" placeholder=" Please Enter the number of attendants needed">
-    </div>
 
-    <div>
-      <button class="btn btn-primary" type="submit" id="apply">Apply</button>
-    </div>
+      <div id=formSelectListing>
+      <p>Please Choose Location</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="listingRadio" id="kileleshwa" value="kileleshwa">
+        <label class="form-check-label" for="kileleshwaRadio">Kileleshwa</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="listingRadio" id="gardenCity" value="gardenCity">
+        <label class="form-check-label" for="kileleshwaRadio">Garden City</label>
+      </div>
+      <div class="form-group">
+        <label for="number">Number of attendants</label>
+        <input type="number" class="form-control" id="attendant" placeholder=" Please Enter the number of attendants needed">
+        <div>
+          <button class="btn btn-outline-success" type="submit" id="apply">Apply</button>
+        </div></div>
+      </div>
 
   </form>
+
+  </div>
+
+  <div class="col-md-6">
+    <div id="formPhotos">
+    <img src="img/form2.jpeg" alt="">
+    <h3>Testimonial from Artista</h3>
+    <p> bla bla bla bla bla bla bla </p>
+    <img src="img/form1.jpeg" alt="">
+    <img src="img/form4.jpeg" alt="">
+
+  </div></div></div></div>
+  <div id="formOrder">
+    <h2></h2>
+    <p class="formName"></p>
+    <p class="formEmail"></p>
+    <p class="formListing"></p>
+    <p class="formShelf"></p>
+    <p class="formAttendatants"></p>
+    <p class="formTotal"></p>
+    <p class="formCost"></p>
+
+    <span class="btn btn-outline-primary" id="formBackHome"> Home</span>
+
+  </div>
+
+</div>
 </body>
 </html>
