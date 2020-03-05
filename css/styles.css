@@ -1,10 +1,10 @@
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
   position: fixed;
   z-index: 1;
-  width: 100%;
- 
+  width: 100%; 
+  /* margin-bottom: 70%; */
 }
 .navbar a {
   float: left;
@@ -14,16 +14,17 @@
   padding: 14px 16px;
   text-decoration: none;
 }
-.navbar a:hover, .dropdown:hover {
+.navbar a:hover, .dropdown:hover, .navbar-toggler:hover {
   background-color:#40E0D0;
 }
-#navbarDropdown{
+#navbarDropdown, #navbarSupportedContent{
   float: left;
   overflow: hidden;
 }
 .dropdown-content {
+  display:none ;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -31,12 +32,15 @@
 #navbarDropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown-content a:hover {
+.dropdown-content a:hover, .nav-item :hover {
   background-color: #ddd;
 }
-.landingCard {
+.whatWeDo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
   border-radius: 0.65rem;
-  margin-top: 8%;
+  margin-top: 13%;
 }
 .landingH4 {
   font-family: monospace;
@@ -49,8 +53,9 @@
   font-family: 'Simonetta', cursive;
 }
 .landingTitle {
+  text-align: center;
   color: #40E0D0;
-  font-family: 'Dancing Script', cursive;
+  font-family:'Cabin', sans-serif;
   font-size: 80px;
 }
 #branches {
@@ -61,40 +66,34 @@
   background-position: center;
   background-size: cover;
   width: auto;
-  height: 200px;
+  height: 400px;
 }
 #shelfs22 {
   background-image: url(../images/shelfs22.jpg);
   background-position: center;
   background-size: cover;
   width: auto;
-  height: 200px;
+  height: 400px;
 }
 #amenities {
   text-align: center;
 }
-.amenitiesMarket {
+.amenitiesMarket, .amenitiesStaff, .amenitesSecurity {
+  display: none;
+  /* border: solid black 2px; */
+  border-radius: 0.65rem;
+  padding: 3px;
+  font-family: 'Neucha', cursive;
+}
+.amenitiesMarket2, .amenitiesStaff2, .amenitesSecurity2 {
   display: none;
   border: solid black 2px;
   border-radius: 0.65rem;
   padding: 3px;
   font-family: 'Neucha', cursive;
 }
-.amenitiesStaff {
-  display: none;
-  border: solid black 2px;
-  border-radius: 0.65rem;
-  padding: 3px;
-  font-family: 'Neucha', cursive;
-}
-.amenitesSecurity {
-  display: none;
-  border: solid black 2px;
-  border-radius: 0.65rem;
-  padding: 3px;
-  font-family: 'Neucha', cursive;
-}
-#toggleMarket :hover, #toggleStaff :hover, #toggleSecurity :hover {
+
+#toggleMarket :hover,#toggleMarket2 :hover, #toggleStaff :hover, #toggleStaff2 :hover, #toggleSecurity :hover, #toggleSecurity2 :hover {
   color:#40E0D0;
   font-size: large;
   font-family: 'Unica One', cursive;
@@ -105,14 +104,50 @@
   font-family: 'Unica One', cursive;
 }
 .footer {
+  padding-top: 60px;
   position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
+  /* background-color: red; */
+  color: black;
   text-align: center;
 }
-.dropdown {
-  z-index: 1;
+.logoSize {
+  height: 100px;
+}
+#firstStall {
+  
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+#secondStall {
+  
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+#ourAmenities {
+  padding-top:30px ;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.trippleColumns1, .trippleColumns2, .trippleColumns3 {
+  border: solid black 2px;
+  border-radius: 0.65rem;
+  padding: 3px;
+  font-family: 'Neucha', cursive;
+}
+.icons1, .icons2, .icons3 {
+  width: 100px;
+  height: 100px;
+}
+#icons11 :hover, #icons22 :hover, #icons33 :hover {
+  font-size: x-large;  
+  list-style-type: none;
+}
+.contactIcons {
+  width: 50px;
+  height: 50px;
 }
