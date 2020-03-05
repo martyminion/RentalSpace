@@ -166,15 +166,24 @@ $(document).ready(function () {
   })
 })
 $(document).ready(function() {
-  $('#toggleMarket').click(function() {
+  $('#icons11').click(function() {
     $('.amenitiesMarket').toggle();    
   });
-  $('#toggleStaff').click(function() {
+  $('#icons22').click(function() {
     $('.amenitiesStaff').toggle();    
   });
-  $('#toggleSecurity').click(function() {
+  $('#icons33').click(function() {
     $('.amenitesSecurity').toggle();    
   });
 
+  // $('#toggleMarket2').click(function() {
+  //   $('.amenitiesMarket2').toggle();    
+  // });
+  // $('#toggleStaff2').click(function() {
+  //   $('.amenitiesStaff2').toggle();    
+  // });
+  // $('#toggleSecurity2').click(function() {
+  //   $('.amenitesSecurity2').toggle();    
+  // });
 
 });
