@@ -276,3 +276,35 @@ margin-top: 100px;
 .brendaPerfumes h2 {
     font-size: 40px;
 }
+.alicard img{
+    height: 200px;
+    width: 350px;
+}
+
+.locationali img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.locationali{
+    padding-left: 600px;
+    display: flex;
+}
+.similar{
+    padding-left: 600px;
+    display: flex;
+}
+.ulali{
+    list-style-type: none;
+}
+#cawilow h2 {
+    font-family: 'Lakki Reddy', cursive;
+    size: 150%;
+    text-align: center;
+    text-align: center;
+    justify-items: center;
+}
+#alishelves p{
+    font-size: 10px;
+}
