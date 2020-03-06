@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(document).ready(function() {
   $('#hoverIcon1').click(function() {
     $('.amenitiesMarket').toggle();    
@@ -18,7 +17,6 @@ $(document).ready(function() {
   });
 
 });
-=======
 function Space(name, email, listing, shelf, attendantsNumber) {
   this.name = name;
   this.email = email;
@@ -186,4 +184,3 @@ $(document).ready(function () {
 
   })
 })
->>>>>>> diana

@@ -148,7 +148,7 @@
   height: 50px;
 }
 .bmwBody{
-    font-family: 'Stardos Stencil', cursive;
+    font-family: 'Flamenco', cursive;
     text-align: center;
     line-height: 20px;
     font-size: 20px;
@@ -184,6 +184,7 @@
     display: flex;
     padding-left: 400px;
     text-align: center;
+    margin-left: 100px;
 }
 
 .brendalocation img {
@@ -198,23 +199,24 @@
 .brendaheader h1 {
     font-size: 100px ;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Cabin", cursive;
 }
 .bmwBody .col-md-12{
     margin-top: 90px;
-    font-family: 'Cutive', serif;
+    font-family:  'Flamenco', cursive;;
     line-height: 50px;
     font-weight: bold;
+    font-size: 30px;
 }
 .bmwBody .col-md-12 h3 {
-    font-family: 'Cutive', serif;
+    font-family: 'Flamenco', cursive;
 }
 
 .bmwBody li {
     list-style-type: none;
 }
 .bmwBody .col-md-6 {
-    font-family: 'Belgrano', serif;
+    font-family: 'Flamenco', cursive;;
     line-height: 50px ;
     margin-top: 100px;
 
@@ -402,4 +404,7 @@ padding: 50px;
 }
 #whyUs h3 {
   font-size: 42px;
+}
+.alibody {
+    margin-left: 150px;
 }
