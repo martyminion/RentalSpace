@@ -1,3 +1,22 @@
+$(document).ready(function() {
+  $('#hoverIcon1').click(function() {
+    $('.amenitiesMarket').toggle();    
+  });
+  $('#hoverIcon2').click(function() {
+    $('.amenitiesStaff').toggle();    
+  });
+  $('#hoverIcon3').click(function() {
+    $('.amenitesSecurity').toggle();    
+  });
+
+  $('#location1').hover(function() {
+    $('#locationName1').toggle();    
+  });
+  $('#location2').hover(function() {
+    $('#locationName2').toggle();    
+  });
+
+});
 function Space(name, email, listing, shelf, attendantsNumber) {
   this.name = name;
   this.email = email;

@@ -1,9 +1,157 @@
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%; 
+  
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover, .navbar-toggler:hover {
+  background-color:#40E0D0;
+}
+#navbarDropdown, #navbarSupportedContent{
+  float: left;
+  overflow: hidden;
+}
+.dropdown-content {
+  display:none ;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+#navbarDropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover, .nav-item :hover {
+  background-color: #ddd;
+}
+.whatWeDo {
+  font-family: 'Flamenco', cursive;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 0.65rem;
+  margin-top: 13%;
+}
+.whatWeDo h6 {
+  font-size: 52px;
+}
+
+#aboutUs {
+  text-align: center;
+  font-family: 'Flamenco', cursive;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#aboutUs h3 {
+  font-size: 42px;
+}
+.landingTitle {
+  text-align: center;
+  color: #40E0D0;
+  font-family:'Cabin', sans-serif;
+  font-size: 80px;
+}
+#branches {
+  text-align: center;
+}
+#shelfs11 {
+  background-image: url(../images/shelfs11.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 400px;
+}
+#shelfs22 {
+  background-image: url(../images/shelfs22.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 400px;
+}
+#amenities {
+  text-align: center;
+}
+.amenitiesMarket, .amenitiesStaff, .amenitesSecurity {
+  display: none;
+  
+  border-radius: 0.65rem;
+  padding: 3px;
+  font-family: 'Flamenco', cursive;
+}
+.amenitiesMarket2, .amenitiesStaff2, .amenitesSecurity2 {
+  display: none;
+  border: solid black 2px;
+  border-radius: 0.65rem;
+  padding: 3px;
+  font-family: 'Flamenco', cursive;
+}
+
+
+.footer {  
+  background-color: #40E0D0;
+  font-family: 'Flamenco', cursive;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  color: black;
+  text-align: center;
+}
+.footer h2 {
+  font-size: 42px;
+}
+.logoSize {
+  height: 100px;
+}
+#firstStall {  
+  padding-left: 50px;
+  padding-right: 50px;  
+}
+#secondStall {  
+  padding-left: 50px;
+  padding-right: 50px;  
+}
+#ourAmenities {
+  padding-top:30px ;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.icons1, .icons2, .icons3 {
+  width: 100px;
+  height: 100px;
+}
+#icons11 :hover, #icons22 :hover, #icons33 :hover {
+  font-size: x-large;  
+  
+}
+#hoverIcon1, #hoverIcon2, #hoverIcon3 {
+  transition: transform .5s;
+}
+#hoverIcon1 :hover, #hoverIcon2 :hover, #hoverIcon3 :hover {
+  transform: scale(1.2);
+}
+.contactIcons {
+  width: 50px;
+  height: 50px;
+}
 .bmwBody{
-    font-family: 'Stardos Stencil', cursive;
+    font-family: 'Flamenco', cursive;
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    scroll-behavior: smooth;
 }
 
 .bmwImage {
@@ -30,6 +178,101 @@
 .alibody h2 {
     font-family: 'Lakki Reddy', cursive;
     size: 150%;
+}
+
+.brendalocation {
+    display: flex;
+    padding-left: 400px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.brendalocation img {
+  width:100px ;
+  height:100px ;
+}
+.brendalocation h2{
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+.brendaheader h1 {
+    font-size: 100px ;
+    text-align: center;
+    font-family: "Cabin", cursive;
+}
+.bmwBody .col-md-12{
+    margin-top: 90px;
+    font-family:  'Flamenco', cursive;;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.bmwBody .col-md-12 h3 {
+    font-family: 'Flamenco', cursive;
+}
+
+.bmwBody li {
+    list-style-type: none;
+}
+.bmwBody .col-md-6 {
+    font-family: 'Flamenco', cursive;;
+    line-height: 50px ;
+    margin-top: 100px;
+
+}
+.bmwBody h3{
+   font-size: 40px;
+}
+#mintShop h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75px;
+    margin-top: 100px;
+}
+#mintShop img{
+    width: 70%;
+    height: 70%;
+}
+.bmwBody .icons h3{
+margin-top: 100px;
+}
+.signup p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.brendacarousel img {
+    display: block;
+    height: auto;
+    width: 100%;
+    }
+.brendaControls {
+    margin-right: 10px;
+}
+.brendaPerfumes {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+.bmwPerfumes h3{
+ font-size: 60px;
+}
+.brendaPerfumes h1{
+    font-size: 100px;
+}
+.bmwPerfumes {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.bmwPerfumes h4{
+    font-size: 30px;
+}
+.bmwPerfumes p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+.brendaPerfumes h2 {
+    font-size: 40px;
 }
 .alicard img{
     height: 200px;
@@ -262,22 +505,128 @@ padding: 50px;
 .logoSize {
   height: 100px;
 }
-#firstStall {
-  
-  padding-left: 50px;
-  padding-right: 50px;
-  
+.locationali img{
+    width: 100px;
+    height: 100px;
+    
 }
-#secondStall {
-  
-  padding-left: 50px;
-  padding-right: 50px;
-  
+
+.locationali{
+    padding-left: 600px;
+    display: flex;
 }
-#ourAmenities {
-  padding-top:30px ;
-  padding-bottom: 70px;
+.similar{
+    padding-left: 600px;
+    display: flex;
+}
+.ulali{
+    list-style-type: none;
+}
+#cawilow h2 {
+    font-family: 'Lakki Reddy', cursive;
+    size: 150%;
+    text-align: center;
+    text-align: center;
+    justify-items: center;
+}
+#alishelves p{
+    font-size: 10px;
+}
+#formPhotos img{
+  height:300px;
+  width:500px;
+  object-fit: cover;
+  padding: 30px;
+
+}
+
+
+#formPhotos {
+  text-align:center;
+  font-size: 15px;
+  font-style: italic;
+  color:#40E0D0;
+}
+#formPhotos p {
+  text-align:center;
+  font-size: 15px;
+  font-style: italic;
+  color: black;
+}
+
+#formTitle h1{
+  font-family: 'Cabin', sans-serif;
+  color: #40E0D0;
+  font-size: 100px;
   text-align: center;
+  padding:30px;
+}
+#formTitle img{
+  height: 100px;
+  width: 100px;
+}
+
+#formBody{
+  font-family: 'Flamenco', cursive;
+  font-size: 20px;
+}
+
+#formApplication{
+  font-family: 'Flamenco', cursive;
+  font-size: 45px;
+  text-align: justify;
+}
+#formOrder h2{
+  font-family: 'Flamenco', cursive;
+  font-size: 45px;
+  text-align: center;
+}
+
+#formBody button{
+  text-align: center;
+  font-size: 25px;
+}
+
+#formBackHome{
+  font-size: 35px;
+}
+#formPhotos {
+  background-color: #40E0D0;
+
+}
+#formOrder{
+display: none;
+text-align: center;
+font-family: 'Flamenco', cursive;
+font-size: 30px;
+padding: 50px;
+}
+
+#formFooter{
+  font-family: 'Flamenco', cursive;
+  color:black;
+  text-align:center;
+}
+#formFooter img{
+  height:100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+#locationName1, #locationName2 {
+  font-family:'Flamenco', cursive ;
+  display: none;
+}
+.sloganFont {
+  font-family: 'Flamenco', cursive;
+}
+#icons11, #icons22, #icons33 {
+  font-family:'Flamenco', cursive ;
+}
+#whyUs {
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Flamenco', cursive;  
 }
 .trippleColumns1, .trippleColumns2, .trippleColumns3 {
   border: solid black 2px;
@@ -296,4 +645,10 @@ padding: 50px;
 .contactIcons {
   width: 50px;
   height: 50px;
+}
+#whyUs h3 {
+  font-size: 42px;
+}
+.alibody {
+    margin-left: 150px;
 }
