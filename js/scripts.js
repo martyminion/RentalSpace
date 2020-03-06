@@ -1,24 +1,21 @@
 <<<<<<< HEAD
 $(document).ready(function() {
-  $('#icons11').click(function() {
+  $('#hoverIcon1').click(function() {
     $('.amenitiesMarket').toggle();    
   });
-  $('#icons22').click(function() {
+  $('#hoverIcon2').click(function() {
     $('.amenitiesStaff').toggle();    
   });
-  $('#icons33').click(function() {
+  $('#hoverIcon3').click(function() {
     $('.amenitesSecurity').toggle();    
   });
 
-  // $('#toggleMarket2').click(function() {
-  //   $('.amenitiesMarket2').toggle();    
-  // });
-  // $('#toggleStaff2').click(function() {
-  //   $('.amenitiesStaff2').toggle();    
-  // });
-  // $('#toggleSecurity2').click(function() {
-  //   $('.amenitesSecurity2').toggle();    
-  // });
+  $('#location1').hover(function() {
+    $('#locationName1').toggle();    
+  });
+  $('#location2').hover(function() {
+    $('#locationName2').toggle();    
+  });
 
 });
 =======
