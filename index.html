@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Asap|Bree+Serif|Cabin|Fredoka+One|Inconsolata|Montserrat|Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap|Bree+Serif|Cabin|Flamenco|Fredoka+One|Inconsolata|Montserrat|Prompt&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
     <script src="js/scripts.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>MINT.Co</title>
@@ -13,110 +12,80 @@
   <body class="backgroundImage">
     <div class="container">
     <div class="navbar">      
-      <div class="logoImage mx-auto">
-        <!-- <img class=" logoSize" src="images/logo.png"> -->
+      <div class="logoImage mx-auto">        
       <h1 span class="landingTitle "><img class=" logoSize" src="images/logo.png">MINT.Co</span></h1>  
-      <p>A modern approach to business affairs.</p>
-      </div>
-                
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" role="button" data-target="#navbarSupportedContent">Branches</button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <li class="nav-item dropdown ml-auto">                
-            <a class="dropdown-item" href="#firstStall">Jogoo Rd</a>
-            <a class="dropdown-item" href="#secondStall">Thika Rd</a>                    
-        </li>  
-      </div> -->
-      
-      <!-- <li class="nav-item dropdown ml-auto">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Branches
-        </a>
-        <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#firstStall">Jogoo Rd</a>
-          <a class="dropdown-item" href="#">Another action</a>          
-        </div>
-      </li>  -->
-      <!-- <a class="ml-auto" href="#aboutUs">About us</a>      -->
+      <p class="sloganFont"><strong> A modern approach to business affairs.</strong></p>
+      </div>                    
       <br>             
     </div>
     <br>
     <div class="whatWeDo">
-      <h6>What we do<h6>
-      <p>At Mint.Co we offer solutions to all business owners who are looking for shelf space to show case their</p>
-    </div>
+      <h6><strong>What we do</strong></h6>
+      <p >At Mint.Co we offer solutions to all business owners who are looking for shelf space to show case their products. Our very flexible shelf space renting options are fit for any level of business. The pre-existing layout of the stores also encourages the customer to pick your item with small products like perfumes being put near the cashiers counter as this is a prooved method of getting your items sold. <br> Take a look at our branches. You can see what items are already stocked as well get moer infomation on how to rent space with us.</p>
+    </div>        
+    <div id="whyUs">
+      <h3><strong>Why Us</strong></h3>
+    </div>        
     <div id="ourAmenities" class="row">
-      <div class="col-md-4" >        
+      <div id="hoverIcon1" class="col-md-4" >        
         <img class="icons1" src="images/markerIcon.png">
-        <h2 id="icons11"><u>Market</u></h2>
-        <span class="amenitiesMarket"><p>Our braches are sure to get your items flying off the shelf due to our location in the heart of the business hub of the area.</p></span>
+        <h2 id="icons11">Market</h2>
+        <span class="amenitiesMarket"><p>Our branches are sure to get your items flying off the shelf due to our location in the heart of the business hub of the area.</p></span>
       </div>
-      <div class="col-md-4" >        
+      <div id="hoverIcon2" class="col-md-4" >        
         <img class="icons2" src="images/staffIcon.png">
-        <h2 id="icons22"><u>Staff</u></h2>
+        <h2 id="icons22">Staff</h2>
         <span class="amenitiesStaff"><p>All stalls are well staffed with shop attendants who have been well trained on all the products in the shop; this will aid them in helping the customers understand your products hence boosting sales.</p></span>
       </div>
-      <div class="col-md-4" >        
+      <div  id="hoverIcon3"class="col-md-4" >        
         <img class="icons3" src="images/securityIcon.png">
-        <h2 id="icons33"><u>Security</u></h2>
+        <h2 id="icons33">Security</h2>
         <span class="amenitesSecurity"><p>The area is very safe with the police post being just a few kilometers away.Coupled with our partnership with G4S we are sure to keep your items safe waiting for a customer to come around.</p></span>
       </div>
     </div>
+    <div id="whyUs">
+      <h3><strong>Our Locations</strong> </h3>
+    </div>
     <div id="branches" >
-      <div class="row">
-        <!-- <div class="col-2"></div> -->
+      <div class="row">        
         <div id="firstStall" class="col-md-6   landingCard">
-          <img class="icons3" src="images/locationIcon.jpg">
-          <!-- <h4 class="landingH4">Jogoo Rd</h4> -->
-          <div id="shelfs11"></div>
-          <!-- <p><strong>Features</strong></p>  
-          <div id="amenities" class="row">
-            <div id="toggleMarket" class="col-sm-4"><li>Market</li></div>
-            <div id="toggleStaff" class="col-sm-4"><li>Staff</li></div>
-            <div id="toggleSecurity" class="col-sm-4"><li>Security</li></div>
-          </div>   -->
-          <br>    
-          <!-- <span class="amenitiesMarket"><strong>Market</strong><p>Our Jogoo Rd branch is sure to get your items flying off the shelf due to our location in the heart of the business hub of the area.</p></span><br><span class="amenitiesStaff"><strong>Staff</strong><p>All stalls are well staffed with shop attendants who have been well trained on all the products in the shop; this will aid them in helping the customers understand your products hence boosting sales.</p></span><br><span class="amenitesSecurity"><strong>Security</strong><p>The area is very safe with the police post being just a few kilometers away.Coupled with our partnership with G4S we are sure to keep your items safe waiting for a customer to come around.<br></p></span> -->
-        </div>
-        <!-- <div class="col-2"></div> -->
-      <!-- </div> -->
-      <br>
-      <!-- <div class="row"> -->
-        <!-- <div class="col-md-2"></div> -->
-        <div id="secondStall" class="col-md-6  landingCard">
-          <!-- <h4 class="landingH4">Thika Rd</h4> -->
-          <img class="icons3" src="images/locationIcon.jpg">
-          <div id="shelfs22"></div>
-          <!-- <p><strong>Features</strong></p>  
-          <div id="amenities" class="row">
-            <div id="toggleMarket2" class="col-sm-4"><li>Market</li></div>
-            <div id="toggleStaff2" class="col-sm-4"><li>Staff</li></div>
-            <div id="toggleSecurity2" class="col-sm-4"><li>Security</li></div>
-          </div>  
-          <br>     -->
+          <a href="kileleshwa.html" target="_blank"><img id="location1" class="icons3" src="images/locationIcon.jpg"></a> 
+          <a href="kileleshwa.html" target="_blank"><p id="locationName1"><strong>Kileleshwa</strong></p></a>          
+          <a href="kileleshwa.html" target="_blank"><div id="shelfs11"></div></a>          
+          <br>            
+        </div>        
+      <br>      
+        <div id="secondStall" class="col-md-6  landingCard">          
+          <a href="garden.html" target="_blank"><img id="location2" class="icons3" src="images/locationIcon.jpg"></a>
+          <a href="garden.html" target="_blank"><p id="locationName2"><strong>Garden City</strong></p></a>
+          <a href="garden.html" target="_blank"><div id="shelfs22"></div></a>          
           <span class="amenitiesMarket2"><strong>Market</strong><p>Our Jogoo Rd branch is sure to get your items flying off the shelf due to our location in the heart of the business hub of the area.</p></span><br><span class="amenitiesStaff2"><strong>Staff</strong><p>All stalls are well staffed with shop attendants who have been well trained on all the products in the shop; this will aid them in helping the customers understand your products hence boosting sales.</p></span><br><span class="amenitesSecurity2"><strong>Security</strong><p>The area is very safe with the police post being just a few kilometers away.Coupled with our partnership with G4S we are sure to keep your items safe waiting for a customer to come around.<br></p></span>
-        </div>
-        <!-- <div class="col-md-2"></div> -->
+        </div>        
       </div>
     </div>
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-8">
         <div class=" landingCard" id="aboutUs">
-          <h2>About Us</h2>
-          <p>Whoever you are, whatever you seek, we’ve got the perfect place for you. Our 29,420,861 listings include 6,573,218 listings of homes, apartments and other unique places to stay, and are located in 155,329 destinations in 226 countries and territories. Booking.com B.V. is based in Amsterdam, the Netherlands and is supported internationally by 198 offices in 70 countries.</p>
+          <h3><strong>Testimonial from Artista</strong> </h3>
+          <p>"Mint.Co has provided a space for me to expand my business. I used to operate on Instagram and my clients would ask me to physically take to them the art pieces for inspection. This was obviously expensive. Mint.Co eliminated that as my clients can view the pieces physically before purchase. " </p>
+        </div>
+        <br>
+        <div class=" landingCard" id="aboutUs">
+          <h3><strong>Testimonial from Fragrance Island</strong> </h3>
+          <p>MINT.Co has enabled me to expand my business from an online store to a physical location where my clients can finally put a face to the brand. I have also  been able to acquire new customers from my co-business owners. Now a bitch can buy a car with all these new clients! The physical location also enables clients to sample perfumes therefore they are more satisfied with what they purchase.  </p>
         </div>
       </div>  
       <div class="col-md-2"></div>    
     </div>      
     <div class="footer">
-      <h2>Contact Us</h2>
+      <h2><strong>Contact Us</strong></h2>
       <div class="row">
-        <div class="col-md-4">
-          <!-- <h2>Contact Us</h2> -->
+        <div class="col-md-4">          
         </div>
         <div class="col-md-2">
           <img class="contactIcons" src="images/phoneIcon.png">
-          <p>+254 123 456</p>
+          <p>+254 123 45678</p>
         </div>
         <div class="col-md-2">
           <img class="contactIcons" src="images/emailIcon.png">

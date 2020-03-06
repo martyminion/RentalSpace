@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 1;
   width: 100%; 
-  /* margin-bottom: 70%; */
+  
 }
 .navbar a {
   float: left;
@@ -36,21 +36,26 @@
   background-color: #ddd;
 }
 .whatWeDo {
+  font-family: 'Flamenco', cursive;
+  font-size: 22px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   border-radius: 0.65rem;
   margin-top: 13%;
 }
-.landingH4 {
-  font-family: monospace;
-  font-size: 40px;
-  font-weight: 800;
-  text-align: left;
+.whatWeDo h6 {
+  font-size: 52px;
 }
+
 #aboutUs {
   text-align: center;
-  font-family: 'Simonetta', cursive;
+  font-family: 'Flamenco', cursive;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#aboutUs h3 {
+  font-size: 42px;
 }
 .landingTitle {
   text-align: center;
@@ -80,74 +85,84 @@
 }
 .amenitiesMarket, .amenitiesStaff, .amenitesSecurity {
   display: none;
-  /* border: solid black 2px; */
+  
   border-radius: 0.65rem;
   padding: 3px;
-  font-family: 'Neucha', cursive;
+  font-family: 'Flamenco', cursive;
 }
 .amenitiesMarket2, .amenitiesStaff2, .amenitesSecurity2 {
   display: none;
   border: solid black 2px;
   border-radius: 0.65rem;
   padding: 3px;
-  font-family: 'Neucha', cursive;
+  font-family: 'Flamenco', cursive;
 }
 
-#toggleMarket :hover,#toggleMarket2 :hover, #toggleStaff :hover, #toggleStaff2 :hover, #toggleSecurity :hover, #toggleSecurity2 :hover {
-  color:#40E0D0;
-  font-size: large;
-  font-family: 'Unica One', cursive;
-  text-decoration: underline;
-  font-weight: 800;
-}
-#toggleMarket , #toggleStaff , #toggleSecurity  {
-  font-family: 'Unica One', cursive;
-}
-.footer {
-  padding-top: 60px;
+
+.footer {  
+  background-color: #40E0D0;
+  font-family: 'Flamenco', cursive;
+  padding-top: ;
   position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
-  /* background-color: red; */
+  width: 100%; 
   color: black;
   text-align: center;
+}
+.footer h2 {
+  font-size: 42px;
 }
 .logoSize {
   height: 100px;
 }
-#firstStall {
-  
+#firstStall {  
   padding-left: 50px;
-  padding-right: 50px;
-  
+  padding-right: 50px;  
 }
-#secondStall {
-  
+#secondStall {  
   padding-left: 50px;
-  padding-right: 50px;
-  
+  padding-right: 50px;  
 }
 #ourAmenities {
   padding-top:30px ;
   padding-bottom: 70px;
   text-align: center;
 }
-.trippleColumns1, .trippleColumns2, .trippleColumns3 {
-  border: solid black 2px;
-  border-radius: 0.65rem;
-  padding: 3px;
-  font-family: 'Neucha', cursive;
-}
+
 .icons1, .icons2, .icons3 {
   width: 100px;
   height: 100px;
 }
 #icons11 :hover, #icons22 :hover, #icons33 :hover {
   font-size: x-large;  
-  list-style-type: none;
+  
+}
+#hoverIcon1, #hoverIcon2, #hoverIcon3 {
+  transition: transform .5s;
+}
+#hoverIcon1 :hover, #hoverIcon2 :hover, #hoverIcon3 :hover {
+  transform: scale(1.2);
 }
 .contactIcons {
   width: 50px;
   height: 50px;
+}
+#locationName1, #locationName2 {
+  font-family:'Flamenco', cursive ;
+  display: none;
+}
+.sloganFont {
+  font-family: 'Flamenco', cursive;
+}
+#icons11, #icons22, #icons33 {
+  font-family:'Flamenco', cursive ;
+}
+#whyUs {
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Flamenco', cursive;  
+}
+#whyUs h3 {
+  font-size: 42px;
 }
