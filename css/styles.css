@@ -1,0 +1,125 @@
+.bmwBody{
+    font-family: 'Stardos Stencil', cursive;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.bmwImage {
+    width: 100px;
+    margin: 40px;
+}
+.bmwBody h1 {
+    font-size: 80px;
+}
+.bmwBody li {
+    font-weight: bold;
+}
+
+#ali{
+    width: 100%;
+    max-height: 500px;
+  }
+
+.alicard{
+    border: none;
+}
+
+
+.alibody h2 {
+    font-family: 'Lakki Reddy', cursive;
+    size: 150%;
+}
+
+.brendalocation {
+    display: flex;
+    padding-left: 400px;
+    text-align: center;
+}
+
+.brendalocation img {
+  width:100px ;
+  height:100px ;
+}
+.brendalocation h2{
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+.brendaheader h1 {
+    font-size: 100px ;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.bmwBody .col-md-12{
+    margin-top: 90px;
+    font-family: 'Cutive', serif;
+    line-height: 50px;
+    font-weight: bold;
+}
+.bmwBody .col-md-12 h3 {
+    font-family: 'Cutive', serif;
+}
+
+.bmwBody li {
+    list-style-type: none;
+}
+.bmwBody .col-md-6 {
+    font-family: 'Belgrano', serif;
+    line-height: 50px ;
+    margin-top: 100px;
+
+}
+.bmwBody h3{
+   font-size: 40px;
+}
+#mintShop h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75px;
+    margin-top: 100px;
+}
+#mintShop img{
+    width: 70%;
+    height: 70%;
+}
+.bmwBody .icons h3{
+margin-top: 100px;
+}
+.signup p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.brendacarousel img {
+    display: block;
+    height: auto;
+    width: 100%;
+    }
+.brendaControls {
+    margin-right: 10px;
+}
+.brendaPerfumes {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+.bmwPerfumes h3{
+ font-size: 60px;
+}
+.brendaPerfumes h1{
+    font-size: 100px;
+}
+.bmwPerfumes {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.bmwPerfumes h4{
+    font-size: 30px;
+}
+.bmwPerfumes p{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+.brendaPerfumes h2 {
+    font-size: 40px;
+}
